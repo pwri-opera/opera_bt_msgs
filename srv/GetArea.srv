@@ -1,0 +1,10 @@
+#goal definition
+geometry_msgs/PoseStamped pose
+
+---
+#result definition
+uint32 area_id
+uint32 entry_node_id
+uint32 exit_node_id
+geometry_msgs/PoseStamped entry_node_pose
+geometry_msgs/PoseStamped exit_node_pose
